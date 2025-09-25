@@ -1,0 +1,72 @@
+[
+  {
+    "id": "stick",
+    "ingredients": [
+      ["wood", null, null],
+      ["wood", null, null],
+      [null, null, null]
+    ],
+    "result": {
+      "id": "stick",
+      "name": "Băț",
+      "description": "Un băț de lemn, util pentru unelte.",
+      "image": "/images/stick.png"
+    }
+  },
+  {
+    "id": "pickaxe",
+    "ingredients": [
+      ["stone", "stone", "stone"],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "result": {
+      "id": "pickaxe",
+      "name": "Târnăcop",
+      "description": "Un târnăcop de piatră, util pentru a sparge roci.",
+      "image": "/images/pickaxe.png"
+    }
+  },
+  {
+    "id": "torch",
+    "ingredients": [
+      ["coal", null, null],
+      ["stick", null, null],
+      [null, null, null]
+    ],
+    "result": {
+      "id": "torch",
+      "name": "Torță",
+      "description": "O torță care luminează calea.",
+      "image": "/images/torch.png"
+    }
+  },
+  {
+    "id": "furnace",
+    "ingredients": [
+      ["stone", "stone", "stone"],
+      ["stone", null, "stone"],
+      ["stone", "stone", "stone"]
+    ],
+    "result": {
+      "id": "furnace",
+      "name": "Cuptor",
+      "description": "Un cuptor, util pentru a topi minereuri.",
+      "image": "/images/furnace.png"
+    }
+  },
+  {
+    "id": "final-item",
+    "ingredients": [
+      ["pickaxe", "furnace", null],
+      ["torch", null, null],
+      [null, null, null]
+    ],
+    "result": {
+      "id": "final-item",
+      "name": "Obiect Final",
+      "description": "Ai reușit! Acesta este obiectul final!",
+      "image": "/images/final-item.png"
+    }
+  }
+]

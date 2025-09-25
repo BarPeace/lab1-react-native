@@ -1,0 +1,17 @@
+[
+  {
+    "id": "wood",
+    "name": "Lemn",
+    "image": "/images/wood.png"
+  },
+  {
+    "id": "stone",
+    "name": "Piatră",
+    "image": "/images/stone.png"
+  },
+  {
+    "id": "coal",
+    "name": "Cărbune",
+    "image": "/images/coal.png"
+  }
+]
